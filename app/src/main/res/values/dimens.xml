@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="dp_325">325dp</dimen>
+    <dimen name="dp_290">290dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_145">145dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_179">179dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_133">133dp</dimen>
+    <dimen name="dp_112">112dp</dimen>
+    <dimen name="sp_21">21sp</dimen>
+    <dimen name="dp_174">174dp</dimen>
+    <dimen name="dp_105">105dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+</resources>

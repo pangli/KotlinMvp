@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- 启动页 -->
+    <style name="AppStartLoad" parent="BaseAppTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="colorPrimaryDark">#00000000</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    </style>
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <!--      <item name="android:windowBackground">@color/color_f4f6f8</item>
+              &lt;!&ndash;输入框底部线样式&ndash;&gt;
+              <item name="colorControlNormal">@color/color_f4f4f4</item>
+              <item name="colorControlActivated">@color/color_10b2ff</item>-->
+        <!--按下波纹效果颜色-->
+        <!--    <item name="colorControlHighlight">@color/color_10b2ff</item>-->
+    </style>
+
+    <!--View按下效果-->
+    <style name="SelectableStyle">
+        <!--<item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>-->
+        <item name="android:drawablePadding">@dimen/dp_11</item>
+        <!--<item name="android:foreground">?attr/selectableItemBackground</item>-->
+    </style>
+
+    <style name="line_widthm_heightw">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+
+    <style name="line_width_fix">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#eeeeee</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KotlinMVP</string>
+    <string name="exit_tip">再按一次退出程序</string>
+    <string name="str_home">首页</string>
+    <string name="str_database">资料库</string>
+    <string name="str_mine">我的</string>
+    <string name="str_empty_data">啊哦～暂无相关的内容</string>
+    <string name="file_not_exist">文件不存在</string>
+    <string name="email_not_empty">邮箱不能为空</string>
+    <string name="password_not_empty">密码不能为空</string>
+    <string name="splash_hint">互联网财富管理专家</string>
+    <string name="sure">确定</string>
+    <string name="str_dedicated_consultant">专属顾问</string>
+    <string name="str_want_say">我想说...</string>
+    <string name="str_send">发送</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">baselibs</string>
+    <string name="im_yesterday_format">昨天</string>
+    <string name="im_year_format">年</string>
+    <string name="im_month_format">月</string>
+    <string name="im_day_format">日</string>
+    <string name="im_monday_format">周一</string>
+    <string name="im_tuesday_format">周二</string>
+    <string name="im_wednesday_format">周三</string>
+    <string name="im_thuresday_format">周四</string>
+    <string name="im_friday_format">周五</string>
+    <string name="im_saturday_format">周六</string>
+    <string name="im_sunsay_format">周日</string>
+    <string name="im_daybreak_format">凌晨</string>
+    <string name="im_morning_format">上午</string>
+    <string name="im_noon_format">中午</string>
+    <string name="im_afternoon_format">下午</string>
+    <string name="im_night_format">晚上</string>
+</resources>

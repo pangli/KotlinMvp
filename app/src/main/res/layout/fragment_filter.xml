@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zorro.kotlin.baselibs.widget.dropdownmenu.DropDownMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dropDownMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dddividerColor="@color/color_f4f4f4"
+    app:ddmaskColor="@color/color_80000000"
+    app:ddmenuAfterSelectionIcon="@mipmap/dropdown_select"
+    app:ddmenuBackgroundColor="@color/white"
+    app:ddmenuMenuHeightPercent="0.5"
+    app:ddmenuSelectedIcon="@mipmap/dropdown_actived"
+    app:ddmenuTextSize="@dimen/sp_14"
+    app:ddmenuUnselectedIcon="@mipmap/dropdown_normal"
+    app:ddtextSelectedColor="@color/color_00bced"
+    app:ddtextUnselectedColor="@color/color_666666"
+    app:ddunderlineColor="@color/color_f4f4f4" />
+

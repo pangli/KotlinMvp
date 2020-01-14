@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/bottom_home"
+        android:title="@string/str_home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@id/action_database"
+        android:enabled="true"
+        android:icon="@drawable/bottom_database"
+        android:title="@string/str_database"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@id/action_mine"
+        android:enabled="true"
+        android:icon="@drawable/bottom_mine"
+        android:title="@string/str_mine"
+        app:showAsAction="ifRoom" />
+</menu>

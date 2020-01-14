@@ -1,0 +1,129 @@
+ext {
+    android = [
+            compileSdkVersion: 28,
+            applicationId    : "com.zorro.kotlin.samples",
+            buildToolsVersion: "29.0.2",
+            minSdkVersion    : 19,
+            targetSdkVersion : 29,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    dependVersion = [
+            androidSupportSdkVersion: "28.0.0",
+            espressoSdkVersion      : "3.0.2",
+            retrofitSdkVersion      : "2.6.2",
+            glideSdkVersion         : "4.9.0",
+            rxJava                  : "2.2.9",
+            rxAndroid               : "2.1.1",
+            rxKotlin                : "2.3.0",
+            anko                    : "0.10.7"
+    ]
+
+    supportDeps = [
+            "supportv4"        : "com.android.support:support-v4:${dependVersion.androidSupportSdkVersion}",
+            "appcompatv7"      : "com.android.support:appcompat-v7:${dependVersion.androidSupportSdkVersion}",
+            "cardview"         : "com.android.support:cardview-v7:${dependVersion.androidSupportSdkVersion}",
+            "design"           : "com.android.support:design:${dependVersion.androidSupportSdkVersion}",
+            "constraint-layout": "com.android.support.constraint:constraint-layout:1.1.3",
+            "flexbox"          : "com.google.android:flexbox:1.0.0",//FlexboxLayout
+            "annotations"      : "com.android.support:support-annotations:${dependVersion.androidSupportSdkVersion}"
+    ]
+
+    retrofit = [
+            "retrofit"                : "com.squareup.retrofit2:retrofit:${dependVersion.retrofitSdkVersion}",
+            "retrofitConverterGson"   : "com.squareup.retrofit2:converter-gson:${dependVersion.retrofitSdkVersion}",
+            "retrofitAdapterRxjava2"  : "com.squareup.retrofit2:adapter-rxjava2:${dependVersion.retrofitSdkVersion}",
+            "retrofitConverterMoshi"  : "com.squareup.retrofit2:converter-moshi:${dependVersion.retrofitSdkVersion}",
+            "okhttp3LoggerInterceptor": 'com.squareup.okhttp3:logging-interceptor:3.12.0',
+            "retrofitKotlinMoshi"     : "com.squareup.moshi:moshi-kotlin:1.8.0"
+    ]
+
+    rxJava = [
+            "rxJava"   : "io.reactivex.rxjava2:rxjava:${dependVersion.rxJava}",
+            "rxAndroid": "io.reactivex.rxjava2:rxandroid:${dependVersion.rxAndroid}",
+            "rxKotlin" : "io.reactivex.rxjava2:rxkotlin:${dependVersion.rxKotlin}",
+            //"anko"     : "org.jetbrains.anko:anko:${dependVersion.anko}"
+    ]
+
+    testDeps = [
+            "junit"           : 'junit:junit:4.12',
+            "runner"          : 'com.android.support.test:runner:1.0.2',
+            "espresso-core"   : "com.android.support.test.espresso:espresso-core:${dependVersion.espressoSdkVersion}",
+            "espresso-contrib": "com.android.support.test.espresso:espresso-contrib:${dependVersion.espressoSdkVersion}",
+            "espresso-intents": "com.android.support.test.espresso:espresso-intents:${dependVersion.espressoSdkVersion}"
+    ]
+
+    debugDeps = [
+            "leakcanary-debug": 'com.squareup.leakcanary:leakcanary-android:2.0-beta-3',
+            "debug-db"        : 'com.amitshekhar.android:debug-db:1.0.6'
+    ]
+
+    commonDeps = [
+            "multidex"          : 'com.android.support:multidex:1.0.3',
+            "immersionbar"      : 'com.gyf.immersionbar:immersionbar:3.0.0',
+            "brvh"              : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50',
+            "glide"             : "com.github.bumptech.glide:glide:${dependVersion.glideSdkVersion}",
+            //"glideOkhttp" : "com.github.bumptech.glide:okhttp3-integration:${dependVersion.glideSdkVersion}",
+            "eventbus"          : 'org.greenrobot:eventbus:3.1.1',
+            "logger"            : 'com.orhanobut:logger:2.2.0',
+            //下拉刷新
+            "SmartRefreshLayout": 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0',
+            "SmartRefreshHeader": 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0',
+            //Android loading animations
+            "spinkit"           : 'com.github.ybq:Android-SpinKit:1.4.0',
+            //webView
+            //"jsbridge"    : 'com.github.lzyzsd:jsbridge:1.0.4',
+            //权限管理
+            "permissions"       : 'pub.devrel:easypermissions:2.0.1',
+            "rxpermissions"     : 'com.github.tbruyelle:rxpermissions:0.10.2',
+            //图片选择器
+            "picture"           : 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.4',
+            //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.2.0
+            //"bugly"       :'com.tencent.bugly:crashreport:3.0.0',
+            "pickerVie"         : 'com.contrarywind:Android-PickerView:4.1.8',
+            "pdf"               : 'com.github.barteksc:android-pdf-viewer:2.8.2',
+            "xpopup"            : 'com.lxj:xpopup:1.8.10',
+            //七牛sdk
+            "qiniu"             : 'com.qiniu:qiniu-android-sdk:7.4.0',
+            //微信sdk
+            "wechat"            : 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+',
+            //极光推送
+            "jcore"             : 'cn.jiguang.sdk:jcore:2.2.2',
+            "jpush"             : 'cn.jiguang.sdk:jpush:3.4.0',
+            //smack
+            "smack-common"      : 'org.igniterealtime.smack:smack-android:4.3.4',
+            "smack-tcp"         : 'org.igniterealtime.smack:smack-tcp:4.3.4',
+            "smack-im"          : 'org.igniterealtime.smack:smack-im:4.3.4',
+            "smack-extensions"  : 'org.igniterealtime.smack:smack-extensions:4.3.4',
+            //
+            "x5webview"         : 'com.tencent.tbs.tbssdk:sdk:43697'
+            //阿里路由
+            //"arouter-compiler"  : 'com.alibaba:arouter-compiler:1.2.1'
+    ]
+
+
+    umengDeps = [
+            // "common"   : 'com.umeng.umsdk:common:2.0.2',
+            // "analytics": 'com.umeng.umsdk:analytics:8.0.2',//统计
+            // "share"    : 'com.umeng.umsdk:share-core:6.9.4',
+            // "wechat"   : 'com.umeng.umsdk:share-wx:6.9.4'
+    ]
+    kotlinxDeps = [
+            "coroutines-core"   : 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0',
+            "coroutines-android": 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0'
+    ]
+    otherDeps = [
+            "glideCompiler": "com.github.bumptech.glide:compiler:${dependVersion.glideSdkVersion}",
+    ]
+
+    supportLibs = supportDeps.values()
+    networkLibs = retrofit.values()
+    rxJavaLibs = rxJava.values()
+    commonLibs = commonDeps.values()
+    kotlinxLibs = kotlinxDeps.values()
+    debugLibs = debugDeps.values()
+    //umengLibs = umengDeps.values()
+
+    annotationProcessorLibs = [otherDeps["glideCompiler"]]
+}

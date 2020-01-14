@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropDownMenu">
+        <attr name="ddunderlineColor" format="color" />
+        <attr name="dddividerColor" format="color" />
+        <attr name="ddtextSelectedColor" format="color" />
+        <attr name="ddtextUnselectedColor" format="color" />
+        <attr name="ddmenuBackgroundColor" format="color" />
+        <attr name="ddmaskColor" format="color" />
+        <attr name="ddmenuTextSize" format="dimension" />
+        <attr name="ddmenuSelectedIcon" format="reference" />
+        <attr name="ddmenuUnselectedIcon" format="reference" />
+        <attr name="ddmenuAfterSelectionIcon" format="reference" />
+        <attr name="ddmenuMenuHeightPercent" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ItemView">
+        <attr name="showLine" format="boolean" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+    </declare-styleable>
+    <!--EasySwipeMenuLayout-->
+    <declare-styleable name="EasySwipeMenuLayout">
+        <attr name="leftMenuView" format="reference" />
+        <attr name="rightMenuView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="canRightSwipe" format="boolean" />
+        <attr name="canLeftSwipe" format="boolean" />
+        <attr name="fraction" format="float" />
+    </declare-styleable>
+    <!--左右TestView布局-->
+    <declare-styleable name="LeftRightTextViewLayout">
+        <attr name="leftTextContent" format="string" />
+        <attr name="rightTextContent" format="string" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="leftTextSize" format="integer" />
+        <attr name="rightTextSize" format="integer" />
+        <attr name="rightMaxLines" format="integer" />
+    </declare-styleable>
+    <!--圆形进度条-->
+    <declare-styleable name="RingProgressView">
+        <attr name="bgColor" format="color" />
+        <attr name="fgColorStart" format="color" />
+        <attr name="fgColorEnd" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="percent" format="float" />
+        <attr name="startAngle" format="float" />
+    </declare-styleable>
+</resources>

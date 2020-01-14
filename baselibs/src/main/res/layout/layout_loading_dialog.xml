@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="20dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="20dp">
+    <!--android:background="@drawable/bg_loading_dialog"-->
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/loadingBar"
+        style="@style/SpinKitView.Circle"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        app:SpinKit_Color="#999999" />
+
+    <!--    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:indeterminateDrawable="@drawable/progress_loading" />-->
+    <!--    android:indeterminate="true"
+        android:indeterminateDuration="1000"-->
+    <TextView
+        android:id="@+id/tv_load_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14" />
+
+</LinearLayout>
