@@ -5,7 +5,7 @@
     android:background="@drawable/list_item_selector"
     android:orientation="vertical">
 
-    <com.edaili.kotlin.baselibs.widget.dropdownmenu.DropdownListItemView
+    <com.zorro.kotlin.baselibs.widget.dropdownmenu.DropdownListItemView
         android:id="@+id/dropdown_item"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_44"
