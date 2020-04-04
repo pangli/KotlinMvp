@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'//kotlin扩展
 apply plugin: 'kotlin-kapt'//
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.pangli'
 
 //每个module都要添加
 kapt {
