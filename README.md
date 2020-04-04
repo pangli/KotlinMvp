@@ -1,7 +1,25 @@
 # Kotlin 版 MVP 基础框架简介
-
+[![](https://jitpack.io/v/pangli/KotlinMvp.svg)](https://jitpack.io/#pangli/KotlinMvp)
 > 快速搭建 Kotlin+MVP+RxJava+Retrofit+EventBus 的框架，方便快速开发新项目、减少开发成本，让所写的代码更加简洁，让开发者只需要关注业务的实现。
+## 简单用例
+#### 1.在 build.gradle 中添加依赖
 
+[【V1.0.0】]
+###Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+```
+###	Step 2. Add the dependency
+```
+ implementation 'com.github.pangli:KotlinMvp:1.0.0'
+
+```
 ## 代码结构
 
 #### 1. View 层的基类封装
